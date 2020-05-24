@@ -1,0 +1,6 @@
+Latency for Process 4 is 10
+Latency for Process 6 is 10
+Latency for Process 2 is 90
+Latency for Process 5 is 80
+Latency for Process 1 is 170
+Latency for Process 3 is 180

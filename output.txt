@@ -1,0 +1,22 @@
+At t=0 Process 1 arrives and starts execution with priority 3 and runtime 50
+At t=10 Process 1 is pushed to stack with priority 3 and runtime 40
+At t=10 Process 2 arrives and starts execution with priority 2 and runtime 70
+At t=20 Process 3 is inserted into Q3 with priority 3 and runtime 30
+At t=30 Process 2 is pushed to stack with priority 2 and runtime 50
+At t=30 Process 4 arrives and starts execution with priority 1 and runtime 10
+At t=40 Process 4 is completed with priority 1 and runtime 0
+At t=40 Process 2 is popped from stack with priority 2 and runtime 50
+At t=50 Process 5 is inserted into Q2 with priority 2 and runtime 30
+At t=60 Process 2 is pushed to stack with priority 2 and runtime 30
+At t=60 Process 6 arrives and starts execution with priority 1 and runtime 10
+At t=70 Process 6 is completed with priority 1 and runtime 0
+At t=70 Process 2 is popped from stack with priority 2 and runtime 30
+At t=100 Process 2 is completed with priority 2 and runtime 0
+At t=100 Process 5 is dequeued from Q2 with priority 2 and runtime 30
+At t=130 Process 5 is completed with priority 2 and runtime 0
+At t=130 Process 1 is popped from stack with priority 3 and runtime 40
+At t=170 Process 1 is completed with priority 3 and runtime 0
+At t=170 Process 3 is dequeued from Q3 with priority 3 and runtime 30
+At t=200 Process 3 is completed with priority 3 and runtime 0
+
+All processes are done!
