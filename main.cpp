@@ -1,5 +1,5 @@
-// Kadir GULTEKIN - 2023174
-// EE441 DATA STRUCTURES - HW1 - PROCESSOR SIMULATOR
+// Kadir GULTEKIN
+// DATA STRUCTURES - PROCESSOR SIMULATOR
 
 #include <iostream>
 #include <fstream>
